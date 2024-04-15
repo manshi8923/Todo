@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e4cce75a.css",
+    "main.js": "/static/js/main.facedada.js",
+    "index.html": "/index.html",
+    "main.e4cce75a.css.map": "/static/css/main.e4cce75a.css.map",
+    "main.facedada.js.map": "/static/js/main.facedada.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4cce75a.css",
+    "static/js/main.facedada.js"
+  ]
+}
