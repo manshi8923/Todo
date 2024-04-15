@@ -14,7 +14,7 @@ app.use(express.json());
 MONGO_URI="mongodb+srv://manshimalik456:g1bwsiGR4e0l3TqT@cluster0.ltbcdov.mongodb.net/tod";
 
 app.use(cors());
-mongoose.connect(process.env.MONGO_URI).then(()=>console.log("mongodb connected")).catch((err)=>console.log(err));
+mongoose.connect(MONGO_URI).then(()=>console.log("mongodb connected")).catch((err)=>console.log(err));
 app.use("/api",require("./routes/todoRoutes"));
 app.use(express.static(path.join(__dirname,'./client/build')));
 app.get('*',function(req,res){
